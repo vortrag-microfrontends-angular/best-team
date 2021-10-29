@@ -1,0 +1,10 @@
+<h2>Page 2</h2>
+
+<p>The counter: {{ facade.counter$ | async }}</p>
+
+<div class="buttons">
+  <button mat-raised-button (click)="facade.increment()">Increment</button>
+  <button mat-raised-button (click)="facade.decrement()">Decrement</button>
+</div>
+
+<jo-random-joke></jo-random-joke>
